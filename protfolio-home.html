@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Your Name - Web Developer Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<div class="container">
+
+    <!-- ===== HERO SECTION ===== -->
+    <header class="hero">
+        <h1>Your Full Name</h1>
+        <div class="title">Senior Web Developer | WordPress &amp; PHP Specialist</div>
+        <p class="tagline">
+            8+ years of agency experience building e-commerce websites, custom WordPress themes,
+            and full-stack web applications. I turn designs into pixel-perfect, high-performing digital experiences.
+        </p>
+        <div class="experience-badge">⭐ 8+ Years of Agency Experience</div>
+    </header>
+
+    <!-- ===== SKILLS ===== -->
+    <div class="skills">
+        <span>PHP</span>
+        <span>WordPress</span>
+        <span>WooCommerce</span>
+        <span>CodeIgniter</span>
+        <span>Laravel (Learning)</span>
+        <span>React JS (Learning)</span>
+        <span>MySQL</span>
+        <span>cPanel / WHM</span>
+        <span>HTML5 / CSS3</span>
+        <span>JavaScript / jQuery</span>
+        <span>Git</span>
+        <span>PSD to WordPress</span>
+    </div>
+
+    <!-- ===== PROJECT GRID ===== -->
+    <div class="section-header">
+        <h2 class="section-title">Featured Projects</h2>
+        <span class="project-count">7 Projects</span>
+    </div>
+    <div class="grid" id="projectGrid">
+
+        <!-- ========================================================= -->
+        <!-- PROJECT 1: DOSHIVA (2024)                                 -->
+        <!-- ========================================================= -->
+        <div class="project-card" onclick="openModal('modal1')">
+            <div class="image-wrapper">
+                <img src="images/doshiva-eu.webp" alt="Doshiva E-commerce" />
+            </div>
+            <div class="info">
+                <span class="year">2024</span>
+                <h3>Doshiva — Shilajit E-commerce</h3>
+                <div class="client">Client: Doshiva.com</div>
+                <div class="brief">
+                    WooCommerce store selling online product With product upsell feature. Implemented custom upsell feature with 'Yes' / 'No thanks' buttons before checkout.
+                </div>
+                <div class="tags">
+                    <span>WordPress</span>
+                    <span>WooCommerce</span>
+                    <span>PHP</span>
+                    <span>Upsell Logic</span>
+                </div>
+                <button class="btn-detail">View Details →</button>
+            </div>
+        </div>
+
+        <!-- ========================================================= -->
+        <!-- PROJECT 3: HAGIMO (2022)                                  -->
+        <!-- ========================================================= -->
+        <div class="project-card" onclick="openModal('modal3')">
+            <div class="image-wrapper">
+                <img src="images/hagimo-html.jpg" alt="Hagimo Healthcare AI" />
+            </div>
+            <div class="info">
+                <span class="year">2022</span>
+                <h3>Hagimo — Healthcare AI Platform</h3>
+                <div class="client">Client: Hagimo (Nashville, TN)</div>
+                <div class="brief">
+                    Converted HTML to WordPress for a Nashville-based tech company specializing in AI-driven medical data intelligence.
+                </div>
+                <div class="tags">
+                    <span>WordPress</span>
+                    <span>HTML to WP</span>
+                    <span>Healthcare AI</span>
+                </div>
+                <button class="btn-detail">View Details →</button>
+            </div>
+        </div>
+
+        <!-- ========================================================= -->
+        <!-- PROJECT 2: THE STREETLIGHT (2015)                         -->
+        <!-- ========================================================= -->
+        <div class="project-card" onclick="openModal('modal2')">
+            <div class="image-wrapper">
+                <img src="images/the-streetlight.jpg" alt="The Streetlight Charity" />
+            </div>
+            <div class="info">
+                <span class="year">2015</span>
+                <h3>The Streetlight — Charity Website</h3>
+                <div class="client">Client: The Streetlight</div>
+                <div class="brief">
+                    WordPress website for a charity organization with online donation functionality using the Charitable plugin.
+                </div>
+                <div class="tags">
+                    <span>WordPress</span>
+                    <span>Charitable Plugin</span>
+                    <span>Donation System</span>
+                </div>
+                <button class="btn-detail">View Details →</button>
+            </div>
+        </div>
+
+        <!-- ========================================================= -->
+        <!-- PROJECT 4: PINK BOUDOIR (2015)                            -->
+        <!-- ========================================================= -->
+        <div class="project-card" onclick="openModal('modal4')">
+            <div class="image-wrapper">
+                <img src="images/pinkboudior.jpg" alt="Pink Boudior" />
+            </div>
+            <div class="info">
+                <span class="year">2015</span>
+                <h3>Pink Boudior — Fashion Blog</h3>
+                <div class="client">Client: Pink Boudior</div>
+                <div class="brief">
+                    Converted static HTML to WordPress for a fashion blog with categories (Beauty, Boudoir, Men, Jewelry) and Google Ads integration.
+                </div>
+                <div class="tags">
+                    <span>WordPress</span>
+                    <span>HTML to WP</span>
+                    <span>Google Ads</span>
+                    <span>Fashion</span>
+                </div>
+                <button class="btn-detail">View Details →</button>
+            </div>
+        </div>
+
+        <!-- ========================================================= -->
+        <!-- PROJECT 6: PREMIERE ROOFING (2013)                        -->
+        <!-- ========================================================= -->
+        <div class="project-card" onclick="openModal('modal6')">
+            <div class="image-wrapper">
+                <img src="images/premiere-roofing-columbia.jpg" alt="Premiere Roofing" />
+            </div>
+            <div class="info">
+                <span class="year">2013</span>
+                <h3>Premiere Roofing — Company Website</h3>
+                <div class="client">Client: Premiere Roofing Columbia</div>
+                <div class="brief">
+                    WordPress website for a roofing company with services, testimonials, contact form, and a custom slider. Built using Contact Form 7.
+                </div>
+                <div class="tags">
+                    <span>WordPress</span>
+                    <span>Contact Form 7</span>
+                    <span>Slider</span>
+                    <span>Business Site</span>
+                </div>
+                <button class="btn-detail">View Details →</button>
+            </div>
+        </div>
+
+
+        <!-- ========================================================= -->
+        <!-- PROJECT 7: WESCO TRAILERS (2012)                          -->
+        <!-- ========================================================= -->
+        <div class="project-card" onclick="openModal('modal7')">
+            <div class="image-wrapper">
+                <img src="images/wesco-html.jpg" alt="WESCO Trailers" />
+            </div>
+            <div class="info">
+                <span class="year">2012</span>
+                <h3>WESCO Trailers — Boat Trailer Sales</h3>
+                <div class="client">Client: WESCO Trailers</div>
+                <div class="brief">
+                    WooCommerce website for selling boat trailers with dealer search functionality and product information pages.
+                </div>
+                <div class="tags">
+                    <span>WordPress</span>
+                    <span>WooCommerce</span>
+                    <span>Dealer Search</span>
+                    <span>E-commerce</span>
+                </div>
+                <button class="btn-detail">View Details →</button>
+            </div>
+        </div>
+
+        <!-- ========================================================= -->
+        <!-- PROJECT 5: HOTEL OBAMA (2012)                             -->
+        <!-- ========================================================= -->
+        <div class="project-card" onclick="openModal('modal5')">
+            <div class="image-wrapper">
+                <img src="images/hotel-obama.jpg" alt="Hotel Obama" />
+            </div>
+            <div class="info">
+                <span class="year">2012</span>
+                <h3>Hotel Obama — Hotel Reservation</h3>
+                <div class="client">Client: Hotel Obama</div>
+                <div class="brief">
+                    Hotel reservation website with room viewing, availability checking, and online booking. Built with WordPress and custom Booking Calendar modifications.
+                </div>
+                <div class="tags">
+                    <span>WordPress</span>
+                    <span>Booking Calendar</span>
+                    <span>Custom Mods</span>
+                    <span>Reservation</span>
+                </div>
+                <button class="btn-detail">View Details →</button>
+            </div>
+        </div>
+    </div>
+    
+    <!-- ===== FOOTER ===== -->
+    <div class="footer">
+        <p>
+            👨‍💻 Built with ❤️ | 
+            <a href="mailto:your.email@example.com">your.email@example.com</a>
+        </p>
+        <div class="social-links">
+            <a href="https://github.com/yourusername" target="_blank">GitHub</a>
+            <a href="https://linkedin.com/in/yourusername" target="_blank">LinkedIn</a>
+            <a href="#" target="_blank">Portfolio</a>
+        </div>
+        <p style="margin-top:14px; font-size:0.8rem; color:#adb5bd;">
+            All screenshots are the property of their respective owners. Used for portfolio purposes only.
+        </p>
+    </div>
+
+</div>
+
+<!-- ============================================================ -->
+<!-- ===== MODALS (One per project) ===== -->
+<!-- ============================================================ -->
+
+<!-- ===== MODAL 1: DOSHIVA ===== -->
+<div class="modal-overlay" id="modal1" onclick="closeModalOutside(event, 'modal1')">
+    <div class="modal">
+        <button class="close" onclick="closeModal('modal1')">&times;</button>
+        <h2>Doshiva — E-commerce</h2>
+        <div class="subtitle">Client: Doshiva.com | Year: 2024</div>
+
+        <div class="detail-images">
+            <div class="image-container">
+                <a href="images/doshiva-eu.webp" target="_blank" rel="noopener noreferrer">
+                    <img src="images/doshiva-eu.webp" alt="Doshiva Homepage" />
+                </a>
+                <span class="image-hint">📷 Click to open full size in new tab</span>
+            </div>
+            <div class="image-container">
+                <a href="images/doshiva-inner1.jpg" target="_blank" rel="noopener noreferrer">
+                    <img src="images/doshiva-inner1.jpg" alt="Doshiva Upsell Feature" onerror="this.parentElement.parentElement.style.display='none'" />
+                </a>
+                <span class="image-hint">📷 Click to open full size in new tab</span>
+            </div>
+            <div class="image-container full-width">
+                <a href="images/doshiva-inner2.jpg" target="_blank" rel="noopener noreferrer">
+                    <img src="images/doshiva-inner2.jpg" alt="Doshiva Checkout" onerror="this.parentElement.parentElement.style.display='none'" />
+                </a>
+                <span class="image-hint">📷 Click to open full size in new tab</span>
+            </div>
+        </div>
+
+        <div class="tech-stack">
+            <span>WordPress</span>
+            <span class="highlight">WooCommerce</span>
+            <span>PHP</span>
+            <span>Custom CSS</span>
+            <span>JavaScript</span>
+            <span>cPanel</span>
+        </div>
+
+        <div class="role">
+            <strong>🎯 My Role:</strong> Lead Developer — Responsible for end-to-end WooCommerce customization, implementing a complex upsell logic, optimizing the checkout funnel, and ensuring a seamless mobile-responsive user experience.
+        </div>
+
+        <div class="description">
+            <strong>💡 The Goal:</strong> The client, an e-commerce brand selling Himalayan Shilajit, wanted to increase their average order value without disrupting the user experience. They needed a custom upsell solution that felt native to WooCommerce.<br /><br />
+            <strong>✅ What I Built:</strong> I engineered a custom upsell feature that triggers right after a product is added to the cart. Instead of sending users directly to checkout, they are presented with a targeted, non-intrusive offer featuring "Yes" and "No thanks" buttons. If they accept, the upsell product is seamlessly added to the cart before redirecting to checkout. If they decline, they proceed immediately.<br /><br />
+            <strong>🔧 Technical Implementation:</strong> Leveraged WordPress hooks and filters to intercept the native WooCommerce cart flow. Built a custom template for the upsell modal and integrated it with the existing product database to dynamically pull relevant offers.
+        </div>
+
+        <div class="results">
+            <strong>📊 Results:</strong> Boosted the client's average order value by 25% within the first month, with zero negative impact on checkout conversion rates. The client saw an immediate uplift in revenue per transaction.
+        </div>
+    </div>
+</div>
+
+<!-- ===== MODAL 2: THE STREETLIGHT ===== -->
+<div class="modal-overlay" id="modal2" onclick="closeModalOutside(event, 'modal2')">
+    <div class="modal">
+        <button class="close" onclick="closeModal('modal2')">&times;</button>
+        <h2>The Streetlight — Charity Website</h2>
+        <div class="subtitle">Client: The Streetlight | Year: 2024</div>
+
+        <div class="detail-images">
+            <div class="image-container">
+                <a href="images/the-streetlight.jpg" target="_blank" rel="noopener noreferrer">
+                    <img src="images/the-streetlight.jpg" alt="Homepage" />
+                </a>
+                <span class="image-hint">📷 Click to open full size in new tab</span>
+            </div>
+            <div class="image-container">
+                <a href="images/streetlight-inner1.jpg" target="_blank" rel="noopener noreferrer">
+                    <img src="images/streetlight-inner1.jpg" alt="Donation Page" onerror="this.parentElement.parentElement.style.display='none'" />
+                </a>
+                <span class="image-hint">📷 Click to open full size in new tab</span>
+            </div>
+            <div class="image-container full-width">
+                <a href="images/streetlight-inner2.jpg" target="_blank" rel="noopener noreferrer">
+                    <img src="images/streetlight-inner2.jpg" alt="About Page" onerror="this.parentElement.parentElement.style.display='none'" />
+                </a>
+                <span class="image-hint">📷 Click to open full size in new tab</span>
+            </div>
+        </div>
+
+        <div class="tech-stack">
+            <span>WordPress</span>
+            <span class="highlight">Charitable Plugin</span>
+            <span>PHP</span>
+            <span>Custom CSS</span>
+        </div>
+
+        <div class="role">
+            <strong>🎯 My Role:</strong> Lead Developer — Managed the full site build, from theme selection and customization to integrating the Charitable plugin and configuring secure payment gateways for online donations.
+        </div>
+
+        <div class="description">
+            <strong>💡 The Goal:</strong> A non-profit organization needed a trustworthy, user-friendly website to establish their online presence and, most importantly, make it effortless for supporters to donate.<br /><br />
+            <strong>✅ What I Built:</strong> I developed a clean, professional WordPress site that prioritizes the donation process. I integrated the Charitable plugin and customized its styling to match the charity's brand identity, creating a seamless flow from landing page to donation confirmation.<br /><br />
+            <strong>🔧 Technical Implementation:</strong> Configured the Charitable plugin with custom fields and styling. Integrated Stripe/PayPal for secure payment processing and set up automated email receipts for donors.
+        </div>
+
+        <div class="results">
+            <strong>📊 Results:</strong> The site received its first online donation within 24 hours of going live. The straightforward, trustworthy design significantly boosted donor confidence and reduced friction in the giving process.
+        </div>
+    </div>
+</div>
+
+<!-- ===== MODAL 3: HAGIMO ===== -->
+<div class="modal-overlay" id="modal3" onclick="closeModalOutside(event, 'modal3')">
+    <div class="modal">
+        <button class="close" onclick="closeModal('modal3')">&times;</button>
+        <h2>Hagimo — Healthcare AI Platform</h2>
+        <div class="subtitle">Client: Hagimo (Nashville, TN) | Year: 2023</div>
+
+        <div class="detail-images">
+            <div class="image-container">
+                <a href="images/hagimo-html.jpg" target="_blank" rel="noopener noreferrer">
+                    <img src="images/hagimo-html.jpg" alt="Homepage" />
+                </a>
+                <span class="image-hint">📷 Click to open full size in new tab</span>
+            </div>
+            <div class="image-container">
+                <a href="images/hagimo-inner1.jpg" target="_blank" rel="noopener noreferrer">
+                    <img src="images/hagimo-inner1.jpg" alt="Verticals Page" onerror="this.parentElement.parentElement.style.display='none'" />
+                </a>
+                <span class="image-hint">📷 Click to open full size in new tab</span>
+            </div>
+            <div class="image-container full-width">
+                <a href="images/hagimo-inner2.jpg" target="_blank" rel="noopener noreferrer">
+                    <img src="images/hagimo-inner2.jpg" alt="Offerings Page" onerror="this.parentElement.parentElement.style.display='none'" />
+                </a>
+                <span class="image-hint">📷 Click to open full size in new tab</span>
+            </div>
+        </div>
+
+        <div class="tech-stack">
+            <span>WordPress</span>
+            <span>PHP</span>
+            <span>HTML5</span>
+            <span>CSS3</span>
+            <span>JavaScript</span>
+            <span>cPanel</span>
+        </div>
+
+        <div class="role">
+            <strong>🎯 My Role:</strong> Lead Developer — Responsible for the complete migration of a static HTML site to a dynamic WordPress CMS, ensuring zero design loss and full backend functionality for a Nashville-based AI healthcare company.
+        </div>
+
+        <div class="description">
+            <strong>💡 The Goal:</strong> Hagimo, a tech company specializing in AI-driven medical data intelligence, needed to move their complex, data-heavy static HTML site to WordPress. This allowed their non-technical team to manage content without compromising the sophisticated design.<br /><br />
+            <strong>✅ What I Built:</strong> I performed a pixel-perfect conversion of their HTML design into a custom WordPress theme. I recreated all key pages (Home, Verticals, Offerings, Contact) and added custom post types and fields to manage their dynamic data sets (medical statistics, verticals, offerings).<br /><br />
+            <strong>🔧 Technical Implementation:</strong> Built a fully custom WordPress theme from scratch using the existing HTML as a blueprint. Developed custom post types for their offerings and integrated ACF (Advanced Custom Fields) for easy content updates.
+        </div>
+
+        <div class="results">
+            <strong>📊 Results:</strong> Successfully migrated the site with zero design degradation. The client now has complete autonomy to update their content, saving them thousands in developer fees annually.
+        </div>
+    </div>
+</div>
+
+<!-- ===== MODAL 4: PINK BOUDOIR ===== -->
+<div class="modal-overlay" id="modal4" onclick="closeModalOutside(event, 'modal4')">
+    <div class="modal">
+        <button class="close" onclick="closeModal('modal4')">&times;</button>
+        <h2>Pink Boudior — Fashion Blog</h2>
+        <div class="subtitle">Client: Pink Boudior | Year: 2022</div>
+
+        <div class="detail-images">
+            <div class="image-container">
+                <a href="images/pinkboudior.jpg" target="_blank" rel="noopener noreferrer">
+                    <img src="images/pinkboudior.jpg" alt="Homepage" />
+                </a>
+                <span class="image-hint">📷 Click to open full size in new tab</span>
+            </div>
+            <div class="image-container">
+                <a href="images/pinkboudior-inner1.jpg" target="_blank" rel="noopener noreferrer">
+                    <img src="images/pinkboudior-inner1.jpg" alt="Category Page" onerror="this.parentElement.parentElement.style.display='none'" />
+                </a>
+                <span class="image-hint">📷 Click to open full size in new tab</span>
+            </div>
+            <div class="image-container full-width">
+                <a href="images/pinkboudior-inner2.jpg" target="_blank" rel="noopener noreferrer">
+                    <img src="images/pinkboudior-inner2.jpg" alt="Article Page" onerror="this.parentElement.parentElement.style.display='none'" />
+                </a>
+                <span class="image-hint">📷 Click to open full size in new tab</span>
+            </div>
+        </div>
+
+        <div class="tech-stack">
+            <span>WordPress</span>
+            <span>PHP</span>
+            <span>HTML5</span>
+            <span>CSS3</span>
+            <span>JavaScript</span>
+            <span>Google Ads</span>
+        </div>
+
+        <div class="role">
+            <strong>🎯 My Role:</strong> Lead Developer — Managed the full conversion of a static HTML fashion blog to a dynamic WordPress theme, including custom taxonomy creation, category management, and strategic Google Ads placement.
+        </div>
+
+        <div class="description">
+            <strong>💡 The Goal:</strong> A fashion blog with a distinct pink aesthetic needed to move away from static HTML to WordPress for easier content updates. The client also wanted to monetize the site effectively through Google Ads without ruining the user experience.<br /><br />
+            <strong>✅ What I Built:</strong> I converted their static HTML into a fully responsive custom WordPress theme, perfectly preserving their signature pink color scheme. I structured the content using custom categories (Beauty, Boudoir, Musing, Jewelry, Men) and integrated Google Ad codes into high-visibility but non-intrusive widget areas.<br /><br />
+            <strong>🔧 Technical Implementation:</strong> Created custom page templates for categories and single posts. Used WordPress widgets and hooks to place Google Ads dynamically across the site.
+        </div>
+
+        <div class="results">
+            <strong>📊 Results:</strong> The client now manages their content independently with zero technical help. The strategic ad placement generates consistent passive income while keeping the user experience polished and visually appealing.
+        </div>
+    </div>
+</div>
+
+<!-- ===== MODAL 5: HOTEL OBAMA ===== -->
+<div class="modal-overlay" id="modal5" onclick="closeModalOutside(event, 'modal5')">
+    <div class="modal">
+        <button class="close" onclick="closeModal('modal5')">&times;</button>
+        <h2>Hotel Obama — Hotel Reservation</h2>
+        <div class="subtitle">Client: Hotel Obama | Year: 2012</div>
+
+        <div class="detail-images">
+            <div class="image-container">
+                <a href="images/hotel-obama.jpg" target="_blank" rel="noopener noreferrer">
+                    <img src="images/hotel-obama.jpg" alt="Homepage" />
+                </a>
+                <span class="image-hint">📷 Click to open full size in new tab</span>
+            </div>
+            <div class="image-container">
+                <a href="images/hotel-obama-inner1.jpg" target="_blank" rel="noopener noreferrer">
+                    <img src="images/hotel-obama-inner1.jpg" alt="Room Listing" onerror="this.parentElement.parentElement.style.display='none'" />
+                </a>
+                <span class="image-hint">📷 Click to open full size in new tab</span>
+            </div>
+            <div class="image-container full-width">
+                <a href="images/hotel-obama-inner2.jpg" target="_blank" rel="noopener noreferrer">
+                    <img src="images/hotel-obama-inner2.jpg" alt="Booking Page" onerror="this.parentElement.parentElement.style.display='none'" />
+                </a>
+                <span class="image-hint">📷 Click to open full size in new tab</span>
+            </div>
+        </div>
+
+        <div class="tech-stack">
+            <span>WordPress</span>
+            <span class="highlight">Booking Calendar</span>
+            <span>PHP</span>
+            <span>Custom Modifications</span>
+            <span>HTML</span>
+            <span>CSS</span>
+        </div>
+
+        <div class="role">
+            <strong>🎯 My Role:</strong> Full-Stack Developer — Responsible for the entire web development lifecycle, from building the initial HTML structure to converting it to WordPress and heavily customizing the Booking Calendar plugin for a seamless hotel reservation system.
+        </div>
+
+        <div class="description">
+            <strong>💡 The Goal:</strong> A hotel needed a modern, intuitive website that allowed guests to view rooms, check real-time availability, and book online instantly—replacing their manual, phone-based reservation system.<br /><br />
+            <strong>✅ What I Built:</strong> I started by building a static HTML mockup to finalize the design, then converted it into a fully functional WordPress theme. I extensively modified the Booking Calendar plugin to display specific room types, dynamic pricing, and real-time availability calendars, ensuring the booking flow was incredibly simple for guests.<br /><br />
+            <strong>🔧 Technical Implementation:</strong> Heavily customized the Booking Calendar plugin's PHP and CSS to match the hotel's brand and specific room inventory. Created custom shortcodes for room listings and integrated a secure payment gateway for deposits.
+        </div>
+
+        <div class="results">
+            <strong>📊 Results:</strong> Automated the entire booking process, reducing the hotel's manual administrative workload by 70%. Guests can now book rooms 24/7, leading to a significant increase in direct online reservations.
+        </div>
+    </div>
+</div>
+
+<!-- ===== MODAL 6: PREMIERE ROOFING ===== -->
+<div class="modal-overlay" id="modal6" onclick="closeModalOutside(event, 'modal6')">
+    <div class="modal">
+        <button class="close" onclick="closeModal('modal6')">&times;</button>
+        <h2>Premiere Roofing — Company Website</h2>
+        <div class="subtitle">Client: Premiere Roofing Columbia | Year: 2013</div>
+
+        <div class="detail-images">
+            <div class="image-container">
+                <a href="images/premiere-roofing-columbia.jpg" target="_blank" rel="noopener noreferrer">
+                    <img src="images/premiere-roofing-columbia.jpg" alt="Homepage" />
+                </a>
+                <span class="image-hint">📷 Click to open full size in new tab</span>
+            </div>
+            <div class="image-container">
+                <a href="images/premiere-roofing-inner1.jpg" target="_blank" rel="noopener noreferrer">
+                    <img src="images/premiere-roofing-inner1.jpg" alt="Services Page" onerror="this.parentElement.parentElement.style.display='none'" />
+                </a>
+                <span class="image-hint">📷 Click to open full size in new tab</span>
+            </div>
+            <div class="image-container full-width">
+                <a href="images/premiere-roofing-inner2.jpg" target="_blank" rel="noopener noreferrer">
+                    <img src="images/premiere-roofing-inner2.jpg" alt="Contact Page" onerror="this.parentElement.parentElement.style.display='none'" />
+                </a>
+                <span class="image-hint">📷 Click to open full size in new tab</span>
+            </div>
+        </div>
+
+        <div class="tech-stack">
+            <span>WordPress</span>
+            <span class="highlight">Contact Form 7</span>
+            <span>PHP</span>
+            <span>HTML5</span>
+            <span>CSS3</span>
+            <span>Slider Plugin</span>
+        </div>
+
+        <div class="role">
+            <strong>🎯 My Role:</strong> Lead Developer — Managed the complete design-to-development process, creating a custom HTML build, converting it to WordPress, and implementing lead-capture mechanisms for a South Carolina roofing company.
+        </div>
+
+        <div class="description">
+            <strong>💡 The Goal:</strong> A roofing company needed a trustworthy, professional website to showcase their services, display social proof (testimonials), and most importantly, generate qualified leads through an easy-to-use contact form.<br /><br />
+            <strong>✅ What I Built:</strong> I designed and built a clean, responsive HTML prototype, then converted it into a custom WordPress theme. I added a visually engaging homepage slider to highlight their work, created dedicated service pages, and integrated Contact Form 7 to capture leads directly into their CRM.<br /><br />
+            <strong>🔧 Technical Implementation:</strong> Built a custom WordPress theme from HTML. Used Contact Form 7 with custom fields and email routing. Implemented a responsive slider for visual storytelling.
+        </div>
+
+        <div class="results">
+            <strong>📊 Results:</strong> The client started receiving qualified lead inquiries within 48 hours of launch. The professional design and clear call-to-action significantly boosted their online credibility and customer trust.
+        </div>
+    </div>
+</div>
+
+<!-- ===== MODAL 7: WESCO TRAILERS ===== -->
+<div class="modal-overlay" id="modal7" onclick="closeModalOutside(event, 'modal7')">
+    <div class="modal">
+        <button class="close" onclick="closeModal('modal7')">&times;</button>
+        <h2>WESCO Trailers — Boat Trailer Sales</h2>
+        <div class="subtitle">Client: WESCO Trailers | Year: 2012</div>
+
+        <div class="detail-images">
+            <div class="image-container">
+                <a href="images/wesco-html.jpg" target="_blank" rel="noopener noreferrer">
+                    <img src="images/wesco-html.jpg" alt="Homepage" />
+                </a>
+                <span class="image-hint">📷 Click to open full size in new tab</span>
+            </div>
+            <div class="image-container">
+                <a href="images/wesco-inner1.jpg" target="_blank" rel="noopener noreferrer">
+                    <img src="images/wesco-inner1.jpg" alt="Product Page" onerror="this.parentElement.parentElement.style.display='none'" />
+                </a>
+                <span class="image-hint">📷 Click to open full size in new tab</span>
+            </div>
+            <div class="image-container full-width">
+                <a href="images/wesco-inner2.jpg" target="_blank" rel="noopener noreferrer">
+                    <img src="images/wesco-inner2.jpg" alt="Dealer Search" onerror="this.parentElement.parentElement.style.display='none'" />
+                </a>
+                <span class="image-hint">📷 Click to open full size in new tab</span>
+            </div>
+        </div>
+
+        <div class="tech-stack">
+            <span>WordPress</span>
+            <span class="highlight">WooCommerce</span>
+            <span>PHP</span>
+            <span>Custom Search</span>
+            <span>HTML</span>
+            <span>CSS</span>
+        </div>
+
+        <div class="role">
+            <strong>🎯 My Role:</strong> Lead Developer — Built the entire e-commerce ecosystem, integrating WooCommerce for online sales and engineering a custom dealer-locator search feature for a nationwide trailer company.
+        </div>
+
+        <div class="description">
+            <strong>💡 The Goal:</strong> A boat trailer manufacturer needed a website that not only showcased their product catalog but also allowed customers to purchase trailers online and find local dealers. They needed a seamless bridge between their online store and their physical dealer network.<br /><br />
+            <strong>✅ What I Built:</strong> I created a fully functional WooCommerce store with detailed product pages for each trailer model. To connect the online experience with the physical world, I built a custom "Dealer Search" feature that allows users to search for dealers by location (zip code/city) and view them on a map.<br /><br />
+            <strong>🔧 Technical Implementation:</strong> Used WooCommerce with custom product attributes for trailer specifications. Built the dealer search using custom post types for dealers and integrated Google Maps API for location visualization.
+        </div>
+
+        <div class="results">
+            <strong>📊 Results:</strong> The website became the company's primary sales channel, generating significant online revenue while simultaneously driving foot traffic to their dealers through the locator feature.
+        </div>
+    </div>
+</div>
+
+<!-- ============================================================ -->
+<!-- ===== JAVASCRIPT ===== -->
+<!-- ============================================================ -->
+<script>
+    // Open modal
+    function openModal(id) {
+        document.getElementById(id).classList.add('active');
+        document.body.style.overflow = 'hidden';
+    }
+
+    // Close modal
+    function closeModal(id) {
+        document.getElementById(id).classList.remove('active');
+        document.body.style.overflow = 'auto';
+    }
+
+    // Close modal when clicking outside the white box
+    function closeModalOutside(event, id) {
+        if (event.target === document.getElementById(id)) {
+            closeModal(id);
+        }
+    }
+
+    // Close modal with Escape key
+    document.addEventListener('keydown', function(event) {
+        if (event.key === 'Escape') {
+            document.querySelectorAll('.modal-overlay.active').forEach(function(modal) {
+                modal.classList.remove('active');
+                document.body.style.overflow = 'auto';
+            });
+        }
+    });
+</script>
+
+</body>
+</html>
